@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation bar on left -->
+  <nav id="navbar">
+    <header>JavaScript Documentation</header>
+    <a class="nav-link" href="#Introduction_to_JavaScript">Introduction to JavaScript</a>
+    <a class="nav-link" href="#Variables_and_Types">Variables and Types</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Control_Flow">Control Flow</a>
+    <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+  </nav>
+
+  <!-- Main documentation -->
+  <main id="main-doc">
+
+    <section class="main-section" id="Introduction_to_JavaScript">
+      <header>Introduction to JavaScript</header>
+      <p>JavaScript is a versatile programming language primarily used for web development.</p>
+      <p>It allows you to create interactive websites and applications.</p>
+      <p>JavaScript can be embedded directly in HTML pages.</p>
+      <p>Example of a simple JavaScript alert:</p>
+      <code>alert('Hello World');</code>
+      <ul>
+        <li>Client-side scripting</li>
+        <li>Event handling</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables_and_Types">
+      <header>Variables and Types</header>
+      <p>JavaScript variables can hold different data types such as numbers, strings, and objects.</p>
+      <p>Use <code>var</code>, <code>let</code>, or <code>const</code> to declare variables.</p>
+      <p>Example:</p>
+      <code>let name = 'Alice';</code>
+      <code>const PI = 3.14;</code>
+      <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are reusable blocks of code designed to perform a specific task.</p>
+      <p>Functions can take parameters and return values.</p>
+      <p>Example function:</p>
+      <code>
+        function greet(name) {<br />
+        &nbsp;&nbsp;return 'Hello, ' + name;<br />
+        }
+      </code>
+      <ul>
+        <li>Function declaration</li>
+        <li>Function expression</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Control_Flow">
+      <header>Control Flow</header>
+      <p>Control flow statements determine the order in which code executes.</p>
+      <p>Common statements include <code>if</code>, <code>else</code>, and <code>switch</code>.</p>
+      <p>Example:</p>
+      <code>if (age >= 18) { console.log('Adult'); }</code>
+      <ul>
+        <li>Conditional statements</li>
+        <li>Loops (for, while)</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="DOM_Manipulation">
+      <header>DOM Manipulation</header>
+      <p>The Document Object Model (DOM) represents the structure of an HTML document.</p>
+      <p>JavaScript can manipulate DOM elements to update content dynamically.</p>
+      <p>Example:</p>
+      <code>document.getElementById('title').textContent = 'New Title';</code>
+      <ul>
+        <li>Access elements</li>
+        <li>Modify content and styles</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
